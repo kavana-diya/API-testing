@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "33ac6d4d-0bba-4049-adcf-08642eb35ca7",
+		"name": "github",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38343761"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "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"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"api-testing4\",\r\n    \"description\":\"practical\",\r\n    \"private\":\"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://api.github.com/user/repos"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
